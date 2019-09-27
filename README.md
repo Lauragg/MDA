@@ -17,3 +17,5 @@ Si algo se caracteriza nuestra vida es estar rodeados de tecnologías que nos ay
 Cuando se visita una nueva ciudad o simplemente cuando vives en alguna lo bastante grande, es difícil conocer con detalle todos los servicios que esta nos ofrece y más aún saber dónde estos se sitúan. A veces, algo tan simple como encontrar un punto limpio para poder reciclar la basura diaria o una fuente de agua donde poder calmar la sed se convierte una tarea complicada.
 
 De ahí nace la idea de este proyecto, en una forma de facilitar el encontrar todos estos servicios que, aunque pasen desapercibidos, pueden llegar a ser de gran importancia para nosotros.
+
+La idea principal es una aplicación móvil en la que podamos localizar estos servicios entre otros dentro de un mapa de iconos y con la posiblidad de clasificar lo que el usuario anda buscando, así como valorar los distintos servicios ofrecidos para que así todos puedan conocer el estado y calidad de estos.
