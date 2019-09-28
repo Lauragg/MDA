@@ -27,6 +27,8 @@ La aplicación dispondrá de las siguientes categorías:
   - Con máquinas de ejercicio: baja y media intensidad
 
   - Para pasear
+ 
+ - Bancos
 
 Se dará la posibildad a los usuarios de avisar sobre el estado de un servicio. Ej: esta fuente está rota; el contenedor amarillo no está; el horario del parque está mal indicado; etc.
 
