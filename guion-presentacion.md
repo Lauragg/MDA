@@ -28,7 +28,7 @@ La aplicación dispondrá de las siguientes categorías:
 
   - Para pasear
  
- - Bancos
+ - Búsqueda de bancos y zonas de descanso
 
 Se dará la posibildad a los usuarios de avisar sobre el estado de un servicio. Ej: esta fuente está rota; el contenedor amarillo no está; el horario del parque está mal indicado; etc.
 
