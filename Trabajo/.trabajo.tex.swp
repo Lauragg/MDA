@@ -1,0 +1,139 @@
+\documentclass[12pt,a4paper]{article}
+\renewcommand{\baselinestretch}{1.05}
+\usepackage[spanish]{babel}
+%\usepackage[utf8]{inputenc}
+
+\usepackage{amsmath,amsthm,verbatim,amssymb,amsfonts,amscd, graphicx}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{tkz-fct}
+\usetikzlibrary{babel}
+\usepackage{pgfplots}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{forest}
+\usepackage{hyperref}
+\usepackage{ragged2e}
+
+%Uso de la fuente Source Sans Pro
+
+\usepackage[default]{sourcesanspro}
+%\usepackage[T1]{fontenc}
+
+%Controlar la partición de palabras.
+\pretolerance=5000 
+\tolerance=6000
+
+%Simbolo de euro
+\usepackage{eurosym} % para el euro
+
+
+%Definición de monospace para codigo inline y paquete listings para código fuente.
+\def\code#1{\texttt{#1}}
+\usepackage{listingsutf8}
+\lstset{
+    %extendedchars=false,
+    %inputencoding=utf8
+}
+\usepackage{color}
+\definecolor{grisclarito}{gray}{0.95}
+
+\lstdefinestyle{customc}{
+  %belowcaptionskip=1\baselineskip,
+  breaklines=true,
+  frame=single,
+  %xleftmargin=\parindent,
+  language=C,
+  showstringspaces=false,
+  %basicstyle=\ttfamily,
+  keywordstyle=\bfseries\color{green!40!black},
+  commentstyle=\itshape\color{purple!40!black},
+  identifierstyle=\color{blue},
+  stringstyle=\color{orange},
+  backgroundcolor=\color{grisclarito}
+}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue
+}
+
+\setlength{\parindent}{0pt}
+\topmargin0.0cm
+\headheight0.0cm
+\headsep0.0cm
+\oddsidemargin0.0cm
+\textheight23.0cm
+\textwidth16.5cm
+\footskip1.0cm
+
+\renewcommand*\contentsname{Índice}
+
+\begin{document}
+\pgfplotsset{compat=1.16}
+\begin{titlepage}
+  \centering
+  \includegraphics[width=0.6\textwidth]{ugr.png}\par\vspace{1cm}
+  {\scshape\large Metodologías de desarrollo ágil. \par} \vspace{1cm}
+  {\huge\bfseries DSDM: Dynamic System Development Method \par}
+  \vspace{0.4cm}
+  {\large\itshape Un método iterativo y creciente.\\}
+  \vspace{0.6cm}
+  {\large\itshape  Pedro Bonilla Nadal \\ David Infante Casas \\ Laura García Gómez \\ Antonio Martín Ruiz \\ Juan Ocaña Valenzuela  \par} \vspace{1.00cm}
+  Curso 2019-2020 \\
+  \vfill
+
+  % Bottom of the page
+  {\large \today\par}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\setlength{\parskip}{10pt}
+\justify
+
+\section{Introduccion}
+
+En los últimos años, cada vez más sistemas han adoptado la RFID (identificación por radiofrecuencia) y las tarjetas sin contacto, más comúnmente llamadas tarjetas contactless, como sustituto de los códigos de barras, las tarjetas de banda magnética y los billetes de papel para una amplia variedad de aplicaciones. Las tarjetas contactless consisten en una pequeña pieza de memoria a la que se puede acceder de forma inalámbrica, pero a diferencia de las etiquetas RFID, también tienen algunas capacidades informáticas. La mayoría de estas tarjetas implementan algún tipo de criptografía de clave simple simétrica, haciéndolas adecuadas para aplicaciones que requieren control de acceso a la memoria de la tarjeta inteligente.
+\\
+Varias aplicaciones a gran escala utilizan tarjetas contactless. Por ejemplo, se utilizan para el pago en varios sistemas de transporte público como la tarjeta utilizada en los buses o metros de Granada, en diferentes locales de hostelería, o en supermercados entre otro tipos de comercios. Muchos países ya han incorporado una tarjeta inteligente sin contacto en sus pasaportes electrónicos. Muchos edificios de oficinas e incluso instalaciones seguras, como aeropuertos y bases militares, utilizan tarjetas inteligentes sin contacto para el control de acceso. Se diferencian en tamaño, carcasa, memoria y potencia de cálculo. También difieren en las características de seguridad que proporcionan.
+\\
+En este trabajo se van a analizar las tarjetas Mifare Classic, explicando el sistema de encriptación utilizado y un ejemplo de como realizar un ataque a este tipo de tarjetas. Se ha escogido este modelo debido a que es el más utilizado a nivel mundial.
+\\
+\textbf{Se puede añadir más respecto a nuestra contribución, explicando los pasos que vamos a realizar en el ejemplo de manera muy breve}
+
+\section{Tarjetas Mifare Classic}
+
+MIFARE es una tecnología de tarjetas inteligentes sin contato (TISC), de las más ampliamente instaladas en el mundo, con el 70\% de cuota de mercado en el caso de la variante MIFARE Classic.
+\\
+Según el Mifare Classic cumple con las partes 1 a 3 de la norma ISO 14443-A, especificando las características físicas, la interfaz de radiofrecuencia y el protocolo anticolisión.  El Mifare Classic no implementa la parte 4 del estándar, que describe el protocolo de transmisión, sino que utiliza su propia capa de comunicación segura. En esta capa, Mifare Classic utiliza el cifrado de flujo propietario CRYPTO1 para proporcionar confidencialidad de datos y autenticación mutua entre la tarjeta y el lector. Esta cifrado ha sido desmantelado utilizando ingeniería inversa.
+
+\section{El sistema Crypto1}
+
+\section{Procedimiento de lectura normal de una tarjeta}
+
+\section{Ataques a Crypto1}
+
+\section{Ejemplo de ataque al sistema del consorcio de transportes de Andalucía}
+
+\section{Conclusiones}
+
+%Bibliographic references
+\begin{thebibliography}{9}
+
+\bibitem{pickpocketing} Dynamic Systems Development Method (DSDM)
+\\\texttt{http://www.students.science.uu.nl/~slegt001/me/final\_5767202\_Slegten.pdf}
+\bibitem{pickpocketing2}Dynamic System Development Method
+\\\texttt{https://files.ifi.uzh.ch/rerg/arvo/courses/seminar\_ws03/14\_Voigt\_DSMD\_Ausa-\\rbeitung.pdf}
+\bibitem{pickpocketing3}New Directions on Agile Methods:A Comparative Analysis
+\\\texttt{http://secure.com.sg/courses/ICT353/Session\_Collateral/TOP\_03\_ART\_06\_ARTI-\\CLE\_ABRAHAMSSON\_New\_Directions\_Agile\_Methods.pdf}
+
+\bibitem{pickpocketing4}Agile software developmentmethods.
+\\\texttt{http://www.vtt.fi/inf/pdf/publications/2002/P478.pdf}
+\end{thebibliography}
+
+\end{document}
