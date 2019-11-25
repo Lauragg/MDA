@@ -7,6 +7,9 @@ author:
 - Pedro Bonilla Nadal
 - Juan Ocaña Valenzuela
 - Antonio Martín Ruiz
+
+documentclass: beamer
+fontsize: 11pt
 ...
 
 # División de tareas y asignación
