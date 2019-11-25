@@ -97,75 +97,129 @@
 \setlength{\parskip}{10pt}
 \justify
 
-\section{Introduccion}
-El método de desarrollo de sistemas dinámicos (Dynamic Systems Development Method, DSDM) es un framework para el desarrollo de software de forma ágil creado en 1995 por lo que actualmente se conoce como el Consorcio DSDM. Determina fases, subfases y principios que permiten a equipos de desarrollo trabajar de forma eficiente. Fue una metodología muy popular durante los años 90 y comparte cualidades con otros métodos de desarrollo ágil como SCRUM o Programación Extrema. Es por esto que no es una metodología muy explotada a día de hoy, pues muchos equipos prefieren el uso de SCRUM. DSDM se divide en tres fases: preproyecto, ciclo de vida del proyecto y postproyecto. A su vez, el ciclo de vida se subdivide en cuatro fases, viabilidad, exploración, ingeniería y despliegue.
+\section{Introducción}
+El método de desarrollo de sistemas dinámicos (Dynamic Systems Development Method, DSDM) es un framework para el desarrollo de software de forma ágil creado en 1995 por lo que actualmente se conoce como el Consorcio DSDM. Esta metodología determina fases, subfases y principios que permiten a equipos de desarrollo trabajar de forma eficiente. Fue una metodología muy popular durante los años 90 y comparte cualidades con otros métodos de desarrollo ágil como SCRUM o Programación Extrema. Es por esto que no es una metodología muy explotada a día de hoy, pues muchos equipos prefieren el uso de SCRUM. DSDM se divide en tres fases: preproyecto, ciclo de vida del proyecto y postproyecto. A su vez, el ciclo de vida se subdivide en cuatro fases, viabilidad, exploración, ingeniería y despliegue.
 
 \begin{center}
  \includegraphics[width=0.6\textwidth]{DSDM_Phases.png}
 \end{center}
 
-DSDM es el método ágil más antiguo, lanzado en 1995 y es el único método ágil para centrarse en la gestión de proyectos ágiles. Arie van Bennekum representó a DSDM en el lanzamiento de Agile Alliance y su Agile Manifesto en 2001. DSDM ha operado principalmente en el ambiente corporativo donde demuestra consistentemente su habilidad para trabajar exitosamente dentro y complementar los procesos corporativos existentes. Practicando el desarrollo evolutivo, la última versión de DSDM (Atern) incorpora esas mejoras.
+DSDM es el método ágil más antiguo y es el único método ágil para centrarse en la gestión de proyectos ágiles. Arie van Bennekum representó a DSDM en el lanzamiento de Agile Alliance y su Agile Manifesto en 2001. DSDM opera principalmente en el ambiente corporativo donde demuestra consistentemente que es una métodología muy válida y permite completar exitosamente los procesos corporativos existentes. DSDM se ha ido actualizando a lo largo de los años, cuya última versión es Atern.
 
 
 Algunas características de DSDM incluyen al usuario como componente activo durante el desarrollo, equipos bien preparados y lanzamiento de prototipos frecuente. También se usa la técnica <<Timeboxing>>, de la cual hablaremos más adelante, en la que se establecen intervalos en los que se liberarán los prototipos. Estos intervalos son muy similares a los sprints de SCRUM.
 
 
 
-% Preproyecto: Es vital que el equipo de desarrollo satisfaga la mayoría de roles. Los principales son: - El patrocinador ejecutivo es alguien que actúa como el CEO de una empresa. - El rol de visionario lo lleva a cabo alguien responsable de la detección inicial de requisitos para comenzar el proyecto, el cual también actúa como product manager. - El usuario embajador es alguien con un gran conocimiento sobre el público objetivo y ofrece feedback al equipo de desarrollo. Se trata de un consultor externo. - El Project manager es responsable de que el proyecto se complete con éxito y el día a día del mismo. - Desarrolladores y testers.
+\section{Roles}
+Entre los roles principales de la metodología DSDM, destacan:
 
-%Ciclo de vida del proyecto: Primero se realiza un estudio de viabilidad y al acabar el estudio de negocio se determinan los requisitos funcionales y no funcionales, se diseña la arquitectura del software y el plan de desarrollo. Durante esta fase inicial los dos roles más importantes son los de Project Manager y CEO. Se detallan los costes y beneficios del desarrollo y se evaluan.
-% Durante la segunda fase, los líderes de proyecto y el equipo de desarrollo trabajan junto con el usuario embajador para crear un prototipo funcional y asegurar su correcto desarrollo.
-% En la tercera fase, los roles de visionario y patrocinador ejecutivo pierden valor. El proyecto se desarrolla en iteraciones y el consultor externo se involucra para asegurar que las necesidades de los usuarios estén cubiertas.
-%En la última etapa, se presenta el sistema a los usuarios y se incorpora el feedback durante varias iteraciones.
+\begin{itemize}
+	\item \underline{Patrocinador ejecutivo}: Es alguien que actúa como el CEO de una empresa.
+	\item \underline{Visionario}: Lo lleva a cabo alguien responsable de la detección inicial de requisitos para comenzar el proyecto, el cual también actúa como product manager.
+	\item \underline{Usuario embajador}: Es alguien con un gran conocimiento sobre el público objetivo y ofrece feedback al equipo de desarrollo. Se trata de un consultor externo.
+	\item \underline{Project manager}: Es responsable de que el proyecto se complete con éxito y el día a día del mismo.
+	\item \underline{Desarrolladores}: Se encargan de la ingeniería y codificación del proyecto
+	\item \underline{Testers}: Su trabajo es probar y comprobar que el proyecto no contiene fallos y funciona correctamente
+\end{itemize}
+
+
 
 \section{Fases del desarrollo}
-Para explicar las fases de desarrollo, de entre las diversas variedades de DSDM, explicaremos en particular las del DSDM-Atern. Atern difiere de los enfoques ágiles más comunes en que abarca todo el ciclo de vida del proyecto y no sólo el desarrollo de software (donde prevalece Scrum). Incorpora disciplinas de gestión de proyectos y proporciona mecanismos para asegurar que los beneficios del proyecto sean claros, que la solución propuesta sea factible y que existan bases sólidas antes de que se inicie el trabajo detallado. .
+Para explicar las fases de desarrollo, de entre las diversas variedades de DSDM, explicaremos en particular las del DSDM-Atern. Atern difiere de los enfoques ágiles más comunes en que abarca todo el ciclo de vida del proyecto y no sólo el desarrollo de software (donde prevalece SCRUM). Incorpora disciplinas de gestión de proyectos y proporciona mecanismos para asegurar que los beneficios del proyecto sean claros, que la solución propuesta sea factible y que existan bases sólidas antes de que se inicie el trabajo detallado.
 
 
 \begin{itemize}
-	\item P\underline{re-proyecto}: Inicio del proyecto, acordando los Términos de Referencia para el trabajo.
-	\item \underline{Viabilidad}:
-	Normalmente una fase corta para asegura cual es el valor del proyecto y resaltar su modelo de negocio.
-	\item \underline{Fundaciones}: Fase clave para asegurar que el proyecto se entienda y defina lo suficientemente bien como para que el alcance se pueda basar en un alto nivel y los componentes y estándares tecnológicos se acuerden, antes de que comience la actividad de desarrollo.
-
-\item \underline{Exploración}: Fase de desarrollo iterativo durante la cual los equipos amplían los requisitos de alto nivel para demostrar la funcionalidad.
-
-\item \underline{Ingeniería}: Fase de desarrollo iterativo en la que la solución se diseña para que pueda desplegarse para su lanzamiento.
-
-\item \underline{Despliegue}: Para cada incremento (conjunto de cuadros de tiempo) del proyecto se pone a disposición la solución.
-
- \item \underline{Post proyecto}: Evalúa los beneficios acumulados.
-
-Las fases de exploracion y la fase de ingenieria normalmente se mezclan, dado que el método es flexible, permitiendo a los equipos que lo adapten para ser más adecuado a su situación. Como podemos ver estas fasen comprenden dentro de ellas 
+	\item \underline{Pre-proyecto}: Inicio del proyecto, acordando los Términos de Referencia para el trabajo. Es vital que durante esta fase el equipo satisfaga la mayoría de roles mencionados en su sección.
+	\item \underline{Ciclo de vida del proyecto}: Está formado por las siguientes fases:
+	\begin{itemize}
+		\item \underline{Viabilidad}: Normalmente una fase corta en la que se realiza un estudio para asegurar cual es el valor del proyecto, coste y beneficio y resaltar su modelo de negocio.
+		\item \underline{Fundaciones}: Fase clave para asegurar que el proyecto se entienda y defina lo suficientemente bien como para que el alcance se pueda basar en un alto nivel y los componentes y estándares tecnológicos se acuerden, antes de que comience la actividad de desarrollo. Durante esta fase se especifican los requisitos funcionales y no funcionales. Además los roles principales son Project Manager y CEO.
+		\item \underline{Exploración}: Los líderes de proyecto y el equipo de desarrollo trabajan junto con el usuario embajador para asegurar un correcto desarrollo, detallando los requisitos previamente establecidos.
+		\item \underline{Ingeniería}: Fase de desarrollo iterativo en la que la solución se diseña para que pueda desplegarse para su lanzamiento. El consultor externo se involucra para asegurar que las necesidades de los usuarios estén cubiertas.
+		\item \underline{Despliegue}: Se presenta el sistema a los usuarios y se incorpora el feedback durante varias iteraciones.
+	\end{itemize}
+ 	\item \underline{Post proyecto}: Evalúa los beneficios acumulados.
+\end{itemize}
+	
+Las fases de exploracion y la fase de ingenieria normalmente se mezclan, dado que el método es flexible, permite a los equipos que lo adapten trabajar dependiendo de la situación en la que se encuentren.
 
 
 \section{Principios}
+El método DSDM se usa para procesos de desarrollo ágil. Para mostrar como DSDM se relaciones es fundamental comprender los principiso de DSDM y como estos se completan con las filosofías ágiles.\\
 
-\section{Roles}
+Los siguientes nueve principios son fundamentales para poder entender cual es la filosofía de desarrollo detrás de DSDM. En las decripciones de DSDM, si bien se explicita que no es necesario seguir al pie de la letra todas las fases del desarrollo, pues es un método adaptable a cada situación, si que explicitan que no seguir alguno de estos principios si que grava fuertemente el proceso de desarrollo.
+
+\begin{enumerate}
+	\item \underline{La participación activa del usuario}: es imperativo este punto. Como bien sabemos uno de los principales aspectos de las metodologías ágiles es ser user-focused. El primer principio se considera el más importante, porque la participación de los usuarios a lo largo de todo el proyecto reduce efectivamente los errores en términos de percepción de los usuarios, y por lo tanto, reduce los costes de error. \\
+
+
+En lugar de trabajar con un gran número de usuarios, las directrice de  DSDM  recomiendan trabajar con un pequeño y selecto grupo de usuarios continuamente, evitando así descubrir defectos solamente al final del proyecto en las reuniones con el usuario.\\
+
+
+\item \underline{Los equipos deben tener poder para tomar decisiones}: Esto ayuda a proceder lo más rápidamente posible eliminando los costes de trasumisión y la espera de las comunicaciones. Estos retrasos y fricciones debido a la comunicación obligatoria entre equipo y gerentes deben ser evitadas. Solicitar
+la autorización de recursos, incluso modestos, o cambios sencillos en los requisitos ralentizarán un proyecto de forma significativa.\\
+
+ Del mismo modo los usuarios y otra gente involucrada en el proceso deben tener una autoridad, existente pero limitada para:
+\begin{itemize}
+	\item  Crear requisitos.
+    \item Qué funcionalidad necesita estar en un incremento dado
+    \item Priorización de requisitos y características
+    \item Detalles de la solución técnica
+\end{itemize}
+
+
+\item \underline{Focus en el lanzamiento y los límites de entrega:} Las entregas frecuentes de los resultados aseguran que los errores se detecten rápidamente, son fáciles subsanados y es más fácil de detectar la fuente del error. Esto se aplica tanto al código del programa como a la
+así como a documentos como requisitos o modelos de datos.
+
+
+\item \underline{Considerar como criterio para el software su validez en el mercado.}Como el nombre del marco de trabajo de DSDM sugiere, su esfuerzo principal es entregar
+software que es lo suficientemente bueno para resolver la necesidad del negocio y preocuparse de cualquier mejora en una iteración posterior.
+
+
+ DSDM no promueve la escritura ad-hoc sino que sigiere que se satisfagan  primero las necesidades del negocio, y que se usen TimeBoxes (explicadas posteriormente) para
+refactorización y actividades relacionadas en una iteración posterior. Para ello es necesario tab que cosas como  la refactorización, ingeniería de diseño y mejora de características se consideren parte fundamenteal del proyecto. También es es crucial identificar en las primeras etapas del proyecto las cuestiones clave, que requieren un diseño robusto. 
+
+
+
+
+\item \underline{El desarrollo iterativo e incremental:} 
+Para reducir la complejidad del proyecto es necesario descomponerlo en pequeños paquetes de  carácteristicas, y en cada iteración se añaden nuevas características hasta que todos los requisitos del negocio se cumplen.
+
+ Este principio requiere aceptar el hecho de que que cualquier sistema de software está sujeto a cambios, uno de los principios universales de las metodologías ágiles. Este principio puede introducirse fácilmente incluso al principio de un proyecto, ya que las especificaciones y otros resultados pueden ser producido de manera iterativa también. 
+
+
+\item  \underline{Todos los cambios durante el desarrollo deben ser reversibles:} para segurar la capacidad de respuesta al cambio se requiere que las configuraciones del sistema cambien durante el desarrollo del proyecto debido a cambios en las prioridades de los requisitos.
+
+
+
+\item \underline{Los requisitos se definen a alto nivel:} para evitar limitar el grado de libertad con el que se pueden modificar los requisitos durante el proceso de desarrollo.  Estos requisitos se deben acordar durante el estudio de mercado del problema y después ser congelados.
+
+\item  \underline{Las pruebas están integradas a lo largo de todo el ciclo de vida:} Muchos métodos de desarrollo, normalmente de carácter tradicional, requieren pruebas demasiado tarde como para que puedan tener un impacto poco costoso. DSDM requiere pruebas al principio del proceso de desarrollo. 
+
+
+\item \underline{Enfoque colaborativo y cooperativo:} Hay que evitar la separación y fomentar la colaboración entre el personal técnico y el personal empresarial
+de un proyecto porque la coperación es fundamental para llevar a cabo un proyecto de DSDM. Sin una atmósfera de confianza y honestidad será difícil obtener requisitos y un feedback conveniente.
+\end{enumerate}
+
+
+\section{Valores}
 
 \section{TimeBoxing}
-La gestión de proyectos tradicional utiliza \emph{miletones} para acordar un asset a realizar para un proyecto determinado en un punto en el tiempo. Si bien los  \emph{miletones} funcionan lo suficientemente bien, TimeBoxing es una técnica mucho más poderosa para lograr el mismo resultado. Una TimeBox es un intervalo, normalmente no más largo de 6 semanas, donde un conjunto dado de tareas debe ser logrado. El motivo de la duración relativamente baja de las TimeBox es el hecho de que los seres humanos dan estimaciones mucho más precisas en el futuro cercano, con un pequeño conjunto de tareas.
+La gestión de proyectos tradicional utiliza \emph{miletones} para acordar un asset a realizar para un proyecto determinado en un determinado momento. Si bien los \emph{miletones} funcionan lo suficientemente bien, TimeBoxing es una técnica mucho más poderosa para lograr el mismo resultado. Una TimeBox es un intervalo, normalmente no más largo de 6 semanas, donde un conjunto dado de tareas debe ser logrado. El motivo de la duración relativamente baja de las TimeBox es el hecho de que los seres humanos dan estimaciones mucho más precisas en el futuro cercano, con un pequeño conjunto de tareas.
 En las estimaciones de un futuro lejano, en el que intervienen grandes conjuntos de tareas, se acaban produciendo grandes errores.\\
 
- Una TimeBox puede contener varias tareas, y al final de esta se ha de buscar entregar un producto. Los  \emph{miletones} también
-sufren de tener un entregable fijo, mientras que los TimeBoxes están sujetas a cambios, ya que
-se definen las tareas, no necesariamente el entregable, que puede cambiar si cambios de prioridades durante la iteración del TimeBox, lo que permite una respuesta rápida a
-necesidades del negocio. En resumen: DSDM deja de lado la funcionalidad a favor de la entregar a tiempo. 
+ Una TimeBox puede contener varias tareas, y al final de esta se ha de entregar un producto. Los \emph{miletones} también
+sufren de tener un entregable fijo, mientras que los TimeBoxes están sujetas a cambios, ya que se definen las tareas, no necesariamente el entregable, que puede cambiar si cambian las prioridades durante la iteración del TimeBox, lo que permite una respuesta rápida a necesidades del negocio. En resumen: DSDM deja de lado la funcionalidad a favor de la entregar a tiempo. 
 
 Podemos observar como característivas en el uso de timeboxing en combinación con las fases del proyecto DSDM:
 \begin{enumerate}
 	\item  Los Timeboxes pueden ser de diferente longitud.
-	\item  Varias de las mismas fases de DSDM pueden ejecutarse inmediatamente después de una
-la TimeBoxde la misma fase ha terminado.
-\item Las TimeBoxesparalelas son posibles, incluso las TimeBoxescomplementarias son
-permitido.
-\item Diferentes fases de DSDM pueden ser realizadas en una TimeBoxal mismo tiempo.
-tiempo.
-\item Los Timeboxes pueden ser anidados.
+	\item  Varias de las mismas fases de DSDM pueden ejecutarse inmediatamente después de la TimeBox de la misma fase si ha terminado.
+\item Las TimeBoxes paralelas son posibles, incluso las TimeBoxes complementarias son permitidas.
+\item Diferentes fases de DSDM pueden ser realizadas en una TimeBox al mismo tiempo.
+\item Las Timeboxes pueden ser anidadas.
 \end{enumerate}
-
-
-\end{itemize}
 
 
 
