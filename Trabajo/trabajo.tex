@@ -72,28 +72,28 @@
   colframe=white,
   overlay unbroken and first={
   \draw[red!75!black,line width=3pt]
-    ([xshift=5pt]frame.north west) -- 
-    (frame.north west) -- 
+    ([xshift=5pt]frame.north west) --
+    (frame.north west) --
     (frame.south west);
   \draw[red!75!black,line width=3pt]
-    ([xshift=-5pt]frame.north east) -- 
-    (frame.north east) -- 
+    ([xshift=-5pt]frame.north east) --
+    (frame.north east) --
     (frame.south east);
   },
   overlay unbroken app={
   \draw[red!75!black,line width=3pt,line cap=rect]
-    (frame.south west) -- 
+    (frame.south west) --
     ([xshift=5pt]frame.south west);
   \draw[red!75!black,line width=3pt,line cap=rect]
-    (frame.south east) -- 
+    (frame.south east) --
     ([xshift=-5pt]frame.south east);
   },
   overlay middle and last={
   \draw[red!75!black,line width=3pt]
-    (frame.north west) -- 
+    (frame.north west) --
     (frame.south west);
   \draw[red!75!black,line width=3pt]
-    (frame.north east) -- 
+    (frame.north east) --
     (frame.south east);
   },
   overlay last app={
@@ -116,7 +116,7 @@
 %\usepackage[T1]{fontenc}
 
 %Controlar la partición de palabras.
-\pretolerance=5000 
+\pretolerance=5000
 \tolerance=6000
 
 %Simbolo de euro
@@ -232,7 +232,7 @@ Para explicar las fases de desarrollo, de entre las diversas variedades de DSDM,
 	\end{itemize}
  	\item \underline{Post proyecto}. Evalúa los beneficios acumulados.
 \end{itemize}
-	
+
 Las fases de exploración y la fase de ingeniería normalmente se mezclan, dado que el método es flexible, permite a los equipos que lo adapten trabajar dependiendo de la situación en la que se encuentren.
 
 
@@ -269,15 +269,15 @@ software que es lo suficientemente bueno para resolver la necesidad del negocio 
 
 
  DSDM no promueve la escritura ad-hoc sino que sugiere que se satisfagan  primero las necesidades del negocio, y que se usen TimeBoxes (explicadas posteriormente) para
-refactorización y actividades relacionadas en una iteración posterior. Para ello es necesario que cosas como  la refactorización, ingeniería de diseño y mejora de características se consideren parte fundamental del proyecto. También es es crucial identificar en las primeras etapas del proyecto las cuestiones clave, que requieren un diseño robusto. 
+refactorización y actividades relacionadas en una iteración posterior. Para ello es necesario que cosas como  la refactorización, ingeniería de diseño y mejora de características se consideren parte fundamental del proyecto. También es es crucial identificar en las primeras etapas del proyecto las cuestiones clave, que requieren un diseño robusto.
 
 
 
 
-\item \underline{El desarrollo iterativo e incremental.} 
+\item \underline{El desarrollo iterativo e incremental.}
 Para reducir la complejidad del proyecto es necesario descomponerlo en pequeños paquetes de  características, y en cada iteración se añaden nuevas características hasta que todos los requisitos del negocio se cumplen.
 
- Este principio requiere aceptar el hecho de que que cualquier sistema de software está sujeto a cambios, uno de los principios universales de las metodologías ágiles. Este principio puede introducirse fácilmente incluso al principio de un proyecto, ya que las especificaciones y otros resultados pueden ser producido de manera iterativa también. 
+ Este principio requiere aceptar el hecho de que que cualquier sistema de software está sujeto a cambios, uno de los principios universales de las metodologías ágiles. Este principio puede introducirse fácilmente incluso al principio de un proyecto, ya que las especificaciones y otros resultados pueden ser producido de manera iterativa también.
 
 
 \item  \underline{Todos los cambios durante el desarrollo deben ser reversibles.} Para asegurar la capacidad de respuesta al cambio se requiere que las configuraciones del sistema cambien durante el desarrollo del proyecto debido a cambios en las prioridades de los requisitos.
@@ -286,7 +286,7 @@ Para reducir la complejidad del proyecto es necesario descomponerlo en pequeños
 
 \item \underline{Los requisitos se definen a alto nivel.} Para evitar limitar el grado de libertad con el que se pueden modificar los requisitos durante el proceso de desarrollo.  Estos requisitos se deben acordar durante el estudio de mercado del problema y después ser congelados.
 
-\item  \underline{Las pruebas están integradas a lo largo de todo el ciclo de vida.} Muchos métodos de desarrollo, normalmente de carácter tradicional, requieren pruebas demasiado tarde como para que puedan tener un impacto poco costoso. DSDM requiere pruebas al principio del proceso de desarrollo. 
+\item  \underline{Las pruebas están integradas a lo largo de todo el ciclo de vida.} Muchos métodos de desarrollo, normalmente de carácter tradicional, requieren pruebas demasiado tarde como para que puedan tener un impacto poco costoso. DSDM requiere pruebas al principio del proceso de desarrollo.
 
 
 \item \underline{Enfoque colaborativo y cooperativo.} Hay que evitar la separación y fomentar la colaboración entre el personal técnico y el personal empresarial
@@ -336,7 +336,7 @@ La gestión de proyectos tradicional utiliza \emph{miletones} para acordar un as
 En las estimaciones de un futuro lejano, en el que intervienen grandes conjuntos de tareas, se acaban produciendo grandes errores.\\
 
  Una TimeBox puede contener varias tareas, y al final de esta se ha de entregar un producto. Los \emph{miletones} también
-sufren de tener un entregable fijo, mientras que los TimeBoxes están sujetas a cambios, ya que se definen las tareas, no necesariamente el entregable, que puede cambiar si cambian las prioridades durante la iteración del TimeBox, lo que permite una respuesta rápida a necesidades del negocio. En resumen, DSDM deja de lado la funcionalidad a favor de la entregar a tiempo. 
+sufren de tener un entregable fijo, mientras que los TimeBoxes están sujetas a cambios, ya que se definen las tareas, no necesariamente el entregable, que puede cambiar si cambian las prioridades durante la iteración del TimeBox, lo que permite una respuesta rápida a necesidades del negocio. En resumen, DSDM deja de lado la funcionalidad a favor de la entregar a tiempo.
 
 Podemos observar como características en el uso de timeboxing en combinación con las fases del proyecto DSDM:
 \begin{enumerate}
@@ -347,9 +347,6 @@ Podemos observar como características en el uso de timeboxing en combinación c
 \item Las Timeboxes pueden ser anidadas.
 \end{enumerate}
 
-
-
-\section{Conclusiones}
 
 {\color{red} \rule{\linewidth}{0.5mm} }
 {\color{blue} TODO: hola, podemos añadir de la página https://www.methodsandtools.com/archive/dsdmatern.php cuales son los princpipiso, los roles y los productos.}\\
