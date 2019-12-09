@@ -104,3 +104,25 @@ Los StackeHolders y el Product Owner están muy contentos con el producto obteni
 
 
 ## Sprint Restrospective
+
+En esta reunión vamos a tratar de clarificar y concretar qué cosas hemos hecho bien, qué cosas podríamos hacer mejor y, por último, qué cosas vamos a cambiar de cara a la siguiente iteración.
+
+Empezamos viendo la retrospectiva individual:
+- Juan Ocaña: En el segundo sprint se ha invertido más tiempo de aprendizaje en la herramienta de prototipado con relación a los data masters, de cara a simular el comportamiento de la base de datos y su interacción.
+
+- Antonio Martín: Este segundo sprint fue más fluido. Acostumbrado a las herramientas y el método de trabajo el desarrollo fue menos dificultoso.
+
+- Laura Gómez: En este sprint nos encontramos con el obstáculo de aprender a utilizar correctamente los data masters, sin embargo, al ya estar algo más acostumbrados a la aplicación resultó algo fácil de aprender.
+
+- Pedro Bonilla: Este segundo sprint me ha ayudado a sentirme más seguro de mi aportación al grupo, al no haberme sentido para nada atrasado como sí me pasó en el sprint anterior.
+
+- David Infante: El equipo trabajó de forma mucho más coordinada en este segundo sprint. La experiencia que ganamos en el primero y la relación de amistad que se ha formado entre los miembros del equipo ha dado como resultado a un equipo más unido y eficaz
+
+
+Vemos que el equipo tiene una reacciones mucho más positivas en este sprint. Esto se puede deber a que la fuente de la mayoría de los problemas se ha solucionado.
+
+Las relaciones sociales del grupo se han mantenido igual durante este sprint. Un reparto regulado y esquemático de las tareas ha hecho que no haya apenas roces ni conflicto, si es que ha habido alguno.
+
+La reunión de final de día se ve como una mejora de este sprint y se mantiene de manera indefinida. Se denota de manera positiva las actitudes.
+
+Para mejorar el siguiente sprint vamos a intentar explicar no solo las cosas que se hacen si no las que se aprenden, para que dos personas no aprendan lo mismo de manera independiente y sin ayudarse al respecto.
