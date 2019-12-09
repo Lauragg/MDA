@@ -40,3 +40,5 @@ No hemos tenido muchos problemas para la realización del sprint. Por otro lado,
 Después del primer sprint tenemos un producto funcional hecho bajo la planificación y potencialmente comercializable. Por estos motivos, los stakeholders están muy contentos con el progreso y no consideran ninguna novedad de cara al desarrollo del producto estando satisfechos con el camino que este está siguiendo. Se planea seguir con el proyecto establecido.
 
 ## Sprint Restrospective
+
+En esta reunión vamos a tratar de clarificar y concretar qué cosas hemos hecho bien, qué cosas podríamos hacer mejor y, por último, qué cosas vamos a cambiar de cara a la siguiente iteración.
