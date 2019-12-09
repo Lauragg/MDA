@@ -1,13 +1,13 @@
 # Primer sprint
 
 ## Plan de Iteración
-|                 | Día 1    | Día 2   | Día 3   | Día 4   | Día 5   | Día 6   |
-|-----------------|----------|---------|---------|---------|---------|---------|
-| David Infante   |Diseño de clases base|Diseño de clases base|Implementación GUI|Implementación GUI|Implementación GUI|Implementación GUI|
-| Laura Gómez     |Diseño BD|Diseño BD|Conexión con la BD|Conexión con la BD|Conexión con la BD, Interfaz de información|Interfaz de información|
-| Pedro Bonilla   |Clase contenedor|Clase contenedor|Conexión front-end/back-end|Conexión front-end/back-end|Conexión front-end/back-end, Botón de información|Botón de información|
-| Juan Ocaña      |Clase parque, Diseño GUI|Clase parque, Diseño GUI|Botón de mapa|Botón de mapa|Botón de mapa|         |
-| Antonio Martín  |Clase fuente|Clase fuente|Menú de lista|Menú de lista|Menú de lista, Conexión con API mapas|         |
+|                | Día 1                    | Día 2                    | Día 3                       | Día 4                       | Día 5                                             | Día 6                   |
+|----------------|--------------------------|--------------------------|-----------------------------|-----------------------------|---------------------------------------------------|-------------------------|
+| David Infante  | Diseño de clases base    | Diseño de clases base    | Implementación GUI          | Implementación GUI          | Implementación GUI                                | Implementación GUI      |
+| Laura Gómez    | Diseño BD                | Diseño BD                | Conexión con la BD          | Conexión con la BD          | Conexión con la BD, Interfaz de información       | Interfaz de información |
+| Pedro Bonilla  | Clase contenedor         | Clase contenedor         | Conexión front-end/back-end | Conexión front-end/back-end | Conexión front-end/back-end, Botón de información | Botón de información    |
+| Juan Ocaña     | Clase parque, Diseño GUI | Clase parque, Diseño GUI | Botón de mapa               | Botón de mapa               | Botón de mapa                                     |                         |
+| Antonio Martín | Clase fuente             | Clase fuente             | Menú de lista               | Menú de lista               | Menú de lista, Conexión con API mapas             |                         |
 
 
 
@@ -42,3 +42,25 @@ Después del primer sprint tenemos un producto funcional hecho bajo la planifica
 ## Sprint Restrospective
 
 En esta reunión vamos a tratar de clarificar y concretar qué cosas hemos hecho bien, qué cosas podríamos hacer mejor y, por último, qué cosas vamos a cambiar de cara a la siguiente iteración.
+
+Empezaremos por la restosprectiva individual de cada persona, en lo que respecta a ella misma principalmente, pero con indicaciones al trabajo de otras si se ve necesario.
+
+- Pedro Bonilla: Durante este sprint me he visto no tan colaborativo como he visto a otros compañeros. He sentido que he tardado mas de lo común en adaptarme a la nueva tecnología usada. La ayuda de Juan fue inestimable.
+
+- David Infante: El final del sprint fue duro porque no era capaz solventar un error de la implementación de la GUI, pero gracias al extenso conocimiento sobre el tema de Juan, pudimos acabar la tarea a tiempo.
+
+- Juan Ocaña: El aprendizaje de la herramienta de prototipado ha sido más accidentado de lo que cabría esperar, pero tras entender su funcionamiento todo ha avanzado como debiera.
+
+- Antonio Martín: La herramienta de prototipado fue la principal dificultad al principio. Una vez que aprendimos a manejarla correctamente todo fue mucho más fácil.
+
+- Laura Gómez: El diseño de clases y de la base de datos fue relativamente sencillo y viable. El problema vino cuando tocó utilizar la herramienta, por falta de experiencia hacia esta
+
+
+Vemos que la mayoría del equipo a centrado su preocupación en el manejo de la tecnología nueva. Con felicitaciones hacia Juan por su rápido aprendizaje y dar ese empujoncito extra al equipo. De cara al siguiente sprint nadie espera tener de nuevo el mismo fallo, ya solventado durante la ejecución de este.
+
+
+Las relaciones entre los miembros son cordiales y convenientes. El equipo de Juan con Laura ha demostrado entenderse muy bien para atacar de manera conjunta una tarea más grande que requiera fuerza de trabajo extensa. Por otro lado Pedro, Antonio y David han trabajado mejor en tareas pequeñas que requieran el trabajo de una persona única y puedan enfrentarse a ella en individual. En general han sido correctas y se espera y desea que sigan así.
+
+Los procesos de daily standup, reparto de tareas en función de cuando se quede libre fuerza de trabajo y cuales son más prioritarias ha demostrado ser muy efectivo, esperamos seguir así. Al final del sprint empezamos a hacer como prueba reunión de fin de día. Se ve como una mejora positiva y se quiere implantar en la totalidad del siguiente sprint.
+
+
