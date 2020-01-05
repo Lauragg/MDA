@@ -1,5 +1,10 @@
-## Primer Sprint
+## Introducción
 
+"Tu ciudad" es una aplicación para smartphones con la que tendrás a tu disposición información útil referente a los servicios públicos de tu localidad.
+Gracias al mapa interactivo de la aplicación y sus filtros podrás localizar rápidamente contenedores, parques, fuentes, ¡y mucho más (próximamente)!
+
+
+## Primer Sprint
 
 Durante el primer sprint pusimos en marcha las funcionalidades básicas necesarias para la apliación, por ejemplo, implementamos una interfaz gráfica agradable y sencilla, que pueda ser comprendida por cualquier tipo de usuario sin importar su experiencia con los sistemas informáticos. 
 
