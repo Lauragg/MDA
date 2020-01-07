@@ -10,7 +10,10 @@ En la raíz del proyecto nos podemos encontrar con el clásico readme.md en el q
 ## Prácticas
 
 Dentro de esta carpeta nos encontramos las subcarpetas siguientes:
-+ **entregas** en la cual aparecerán los pdfs finales que han sido entregados a lo largo del curso.
+
++ **entregas** en la cual aparecerán
+  - Los pdfs finales que han sido entregados a lo largo del curso en las diferentes prácticas.
+  - La carpeta **entrega4** que contiene los archivos correspondientes a la práctica 4. En ella se encuentra el archivo _prototipo JIM.VP_, el prototipo actual de la aplicación.
 + **imagenes** donde aparecerán algunas de las imágenes que han sido utilizadas en la creación de los documentos.
 + **src** donde aparecerán los archivos sobre los que hemos ido trabajando para elaborar las distintas prácticas de esta asignatura. Dentro de esta carpeta encontraremos otra llamada "personajesYEscenarios" donde encontraremos los personajes con sus respectivos escenarios para así facilitar su localización y conocimiento sobre lo que son.
 
