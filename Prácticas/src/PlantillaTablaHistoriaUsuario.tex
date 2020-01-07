@@ -1,0 +1,66 @@
+\documentclass[11pt,a4paper]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, es-tabla]{babel}
+\usepackage{caption}
+\usepackage{listings}
+\usepackage{adjustbox}
+\usepackage{enumitem}
+\usepackage{boldline}
+\usepackage{amssymb, amsmath}
+\usepackage{amsthm}
+\usepackage[margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{soul}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{graphicx}
+
+% Meta
+\title{Título}
+\author{Autor}
+\date{}
+
+% Custom
+
+\makeatletter
+\newcommand*\bigcdot{\mathpalette\bigcdot@{.76}}
+\newcommand*\bigcdot@[2]{\mathbin{\vcenter{\hbox{\scalebox{#2}{$\m@th#1\bullet$}}}}}
+\makeatother
+
+\providecommand{\abs}[1]{\lvert#1\rvert}
+\setlength\parindent{0pt}
+\definecolor{Light}{gray}{.90}
+\newcommand\ddfrac[2]{\frac{\displaystyle #1}{\displaystyle #2}}
+% Primera derivada parcial: \pder[f]{x}
+\newcommand{\pder}[2][]{\frac{\partial#1}{\partial#2}}
+
+
+\begin{document}
+\maketitle
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} |l|l|l|l|l|l|}
+
+  \hline
+   Identificador: HU.1.1 \ \ \ &\multicolumn{5}{l|}{Busqueda de libro }\\
+   
+   \hline
+   \multicolumn{6}{|l|}{ \textbf{Descripción:} }\\ 
+   \multicolumn{6}{|l|}{  Aquí se inlcuye unda descripción}\\ 
+   \multicolumn{6}{|l|}{  Aquí se inlcuye unda descripción con 2 lineas.}\\ 
+   \hline
+  Estimación: 2& Prioridad: 1&\multicolumn{4}{c|}{Entrega: 1} \\ \hline
+   \multicolumn{6}{|l|}{ \textbf{Pruebas de aceptación:} }\\ 
+   
+   \multicolumn{6}{|l|}{ \ \ \ \ $\bigcdot$  Aquí se inlcuye unda descripción}\\ 
+   \multicolumn{6}{|l|}{ \ \ \ \ $\bigcdot$  Aquí se inlcuye unda descripción}\\ 
+  
+  
+  \hline 
+   \multicolumn{6}{|l|}{ \textbf{Observaciones:} }\\ 
+   \multicolumn{6}{|l|}{  Aquí se inlcuye unda descripción}\\ \hline
+   
+  
+  
+\end{tabular*}
+\end{document}
